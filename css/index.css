@@ -1,0 +1,31 @@
+@import "anita";
+@import "clopedia";
+@import "daniel";
+@import "fanilo";
+@import "honey";
+@import "jacquit";
+@import "jerome";
+@import "kati";
+@import "manjaka";
+@import "natacha";
+@import "noeline";
+@import "petah";
+@import "prisca";
+@import "rinon";
+@import "rosny";
+@import "sandy";
+@import "sarah";
+@import "shaun";
+@import "sugi";
+@import "synthia";
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+div {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
