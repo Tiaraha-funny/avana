@@ -1,0 +1,19 @@
+@charset "UTF-8";
+div::after {
+  animation: gra 3s ease infinite;
+  font-size: 50px;
+  content: "A beautiful rainbow";
+  font-style: italic;
+  color: chartreuse;
+}
+div.petah {
+background-image: radial-gradient(red, yellow,
+orange, hotpink 10%,
+purple, green 20%,
+red 30%, lightgreen,
+lightblue, transparent,
+darkblue, pink,
+violet, skyblue,
+red, yellow,
+transparent, white, blue);
+}
