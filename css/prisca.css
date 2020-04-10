@@ -1,0 +1,9 @@
+
+
+.prisca-1 {
+  background: repeating-radial-gradient(circle at 49%, red 48%, black 48%, white 187%)
+}
+
+.prisca-2 {
+  background: repeating-conic-gradient(red 10% 40%, white 30% 50%);
+}
