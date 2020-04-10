@@ -21,17 +21,46 @@
 
 :root {
   --current-slide: 0;
-  --all-div-opacity: 1;
+  --div-opacity: 0;
+  --speed: 0.5s;
+  min-height: 100%;
+  background-color: black;
 }
 
 body {
   position: relative;
   margin: 0;
+  height: 100%;
 }
 
-div {
+body > div {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  opacity: var(--all-div-opacity);
+  opacity: var(--div-opacity);
+  transition: opacity var(--speed) ease-in-out;
+}
+
+.blank {
+  --div-opacity: 1;
+}
+
+.blank.active + .div {
+  --div-opacity: 0;
+}
+
+.active {
+  --div-opacity: 1;
+}
+
+.active + div {
+  --div-opacity: 1;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255,255,255,.5);
+  padding: 1rem;
 }
