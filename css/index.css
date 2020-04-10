@@ -1,23 +1,28 @@
-@import "anita";
-@import "clopedia";
-@import "daniel";
-@import "fanilo";
-@import "honey";
-@import "jacquit";
-@import "jerome";
-@import "kati";
-@import "manjaka";
-@import "natacha";
-@import "noeline";
-@import "petah";
-@import "prisca";
-@import "rinon";
-@import "rosny";
-@import "sandy";
-@import "sarah";
-@import "shaun";
-@import "sugi";
-@import "synthia";
+@import "anita.css";
+@import "clopedia.css";
+@import "daniel.css";
+@import "fanilo.css";
+@import "honey.css";
+@import "jacquit.css";
+@import "jerome.css";
+@import "kati.css";
+@import "manjaka.css";
+@import "natacha.css";
+@import "noeline.css";
+@import "petah.css";
+@import "prisca.css";
+@import "rinon.css";
+@import "rosny.css";
+@import "sandy.css";
+@import "sarah.css";
+@import "shaun.css";
+@import "sugi.css";
+@import "synthia.css";
+
+:root {
+  --current-slide: 0;
+  --all-div-opacity: 1;
+}
 
 body {
   position: relative;
@@ -28,4 +33,5 @@ div {
   position: absolute;
   width: 100vw;
   height: 100vh;
+  opacity: var(--all-div-opacity);
 }
