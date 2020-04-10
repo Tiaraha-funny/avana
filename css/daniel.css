@@ -1,0 +1,7 @@
+body .daniel {
+  background-image: repeating-radial-gradient(#de25d7,white,blue,green, yellow 40px);
+}
+
+body .daniel-1 {
+  background-image:repeating-linear-gradient(45deg, black, transparent 10px),repeating-linear-gradient(135deg, black, transparent 10px);
+}
