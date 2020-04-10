@@ -1,0 +1,8 @@
+.manjaka.manjaka-1 {
+  background: repeating-conic-gradient(#cc2193 0% 25%, #1d1c1c 25% 50%);
+  background-size: 100px 100px;
+}
+
+.manjaka.manjaka-2h {
+  background: repeating-conic-gradient(rgb(13, 230, 49),rgb(209, 62, 209),rgb(90, 191, 231) 30deg);
+}
