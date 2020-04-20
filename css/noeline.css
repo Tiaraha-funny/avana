@@ -1,0 +1,8 @@
+.noeline-1 {
+  background-image: radial-gradient(rgb(201, 214, 19) 20%, rgb(19, 207, 214) 30%, rgb(247, 149, 84) 50%, rgb(84, 247, 106) 100%)
+  ;
+}
+
+.noeline-2 {
+  background-image: radial-gradient( ellipse at  bottom, transparent 50%, red 5%, orange, yellow, green, blue, indigo, violet);
+}

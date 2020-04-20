@@ -1,0 +1,15 @@
+.honey.honey-1 {
+  background-image: conic-gradient(red, orange, yellow);
+}
+
+.honey.honey-2 {
+  background-image: linear-gradient(180deg, rgb(29, 83, 37) 25%, rgb(253, 37, 9) 50%, rgb(23, 58, 89) 75%, rgb(23, 49, 255) 100%);
+}
+
+.honey.honey-3 {
+  background-image: repeating-radial-gradient(rgb(255, 0, 255), rgb(0, 255, 255), rgb(37, 25, 255));
+}
+
+.honey.honey-4 {
+  background-image: repeating-linear-gradient(90deg, rgb(255, 0, 255) 25%, rgb(47, 39, 255) 50%, rgb(26, 255, 255) 75%);
+}
