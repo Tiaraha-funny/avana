@@ -1,0 +1,12 @@
+.anita-1 {
+  background: repeating-linear-gradient(45deg, black 20%, red 30%, purple 40%, blue 20%);
+}
+
+
+.anita-2 {
+  background: radial-gradient(ellipse at bottom, green 25%, red 40%, purple 50%, white 20%, indigo 69%, blue 68%, grey 1%);
+}
+
+.anita-3 {
+  background: repeating-conic-gradient(grey 0% 20%, cyan 20% 40%);
+}
