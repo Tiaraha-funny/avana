@@ -1,3 +1,59 @@
-.jacquit {
-  background-image: radial-gradient(circle at center, rgb(255, 251, 0) 20%, rgb(0, 17, 255) 70%,  rgb(148, 0, 161) 50%, rgb(255, 0, 0) 51%);
+.valentino {
+  font-size: 2rem;
+  background-color: blue;
+  color: white;
+  transition: 1s;
+  width: 10rem;
+  height: 10rem;
+  transition-timing-function: ease-out;
+}
+
+.valentino:hover {
+  background-color: chartreuse;
+  color: black;
+  width: 20rem;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  font-size: 4rem;
+  height: 25rem;
+  transition: 4s;
+  border-radius: 2rem;
+}
+
+.bordos {
+  font-size: 3rem;
+  color: black;
+  width: 10rem;
+  height: 20rem;
+  background-color: violet;
+}
+
+.bordos:hover {
+  background-color: blue;
+  color: brown;
+  width: 30rem;
+  height: 30rem;
+  transition: 3s;
+  transition-timing-function: ease-in;
+  border-radius: 1rem;
+}
+
+.francois {
+  font-size: 4rem;
+  color: blue;
+  width: 20%;
+  height: 10rem;
+  background-color: red;
+}
+
+.francois:hover {
+  background-color: chocolate;
+  color: cornsilk;
+  font-size: 5rem;
+  width: 50%;
+  transition: 5s;
+  transition: margin-right 4s ease-in-out 5s;
+  transition-duration: 5s;
+  transition-timing-function: ease;
+  border-radius: 100%;
+  height: 30rem;
 }
